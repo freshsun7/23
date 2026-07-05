@@ -1,27 +1,38 @@
 // ============================================
-// 23 💌 | İyi ki Doğdun Kocam - Birthday Page
+// 23 💌 | İyi ki Doğdun Kocam - Birthday Website
 // ============================================
 
-// Configuration
 const CONFIG = {
     startDate: new Date('2025-04-03'),
     letter: `23. yaş günün kutlu olsunnn. Benden uzakta geçirdiğin ilk ve umarım tek doğum günün bu... Geçen yıl da tam anlamıyla yanında olamamıştım ama bu yıl yanında olmayı o kadar çok isterdim kiii... Sana sarılıp doğum gününü ilk ben kutlamak, yüzünü görmek, o güzel gülüşünü izlemek isterdimmm ama şimdilik bunu sana küçük bir sürprizle hissettirmeye çalışıyorum. Kocamla yaşıt olduğumm sadeceee 3 ay varrr. Yazmaya nereden başlayacağımı gerçekten bilmiyorum kocammmm çünkü seninle geçen bu koca bir yılı birkaç paragrafa sığdırmak çok zor. Ama şunu biliyorum ömrümdeki en güzel yıllardan biri seninle geçti. Birlikte o kadar çok şey yaşadık ki... İyi günlerimiz oldu, kötü günlerimiz oldu, stresli zamanlarımız oldu, yorulduğumuz günler oldu, çok heyecanlandığımız anlar oldu, kahkahalar attığımız zamanlar oldu... Ama dönüp baktığımda hiçbirini değiştirmek istememmm çünkü hepsinde sen vardınnn bebeğiimm. Seni tanımak, seni bilmek, seni sevmek ve en önemlisi biz olabilmek bana dünyanın en güzel hislerinden birini yaşatıyor. Bazen durup senin bir olaya nasıl tepki vereceğini tahmin edebilmek beni çokk ama çookk mutlu ediyor. Seni bu kadar iyi tanıyor olmak bana kendimi çok şanslı hissettiriyor. Arada minik ufak tefek kavgalarımız da oluyor... (Bence kavgalarımız bile eğlenceli) çünkü ne olursa olsun günün sonunda yine birbirimize dönüyoruz. İşte en sevdiğim şey de bu. Her şeye rağmen hep biz olabiliyoruz. Seni düşündüğümde aklıma ilk gelen şey hep gülüşün oluyor. Sana bunu kaç kere söyledim bilmiyorum ama bir kez daha söyleyeceğim. Gülüşüne gerçekten aşığımmm kocammmm. Dünyanın en güzel gülüşü. Ne zaman gülsen benim de istemsizce yüzüm gülüyor. Bazen seni izlerken kendi kendime düşünüyorum... İyi ki o gece sana reels atmışım çünkü küçücük görünen o hareket, benim hayatımdaki en güzel başlangıçlardan biri olmuş. İyi ki benimle konuşmuşsun iyi ki hayatıma girmişsin veee en önemlisiii iyi ki benim olmuşsun kocammm. Bugün benim kocam 23 yaşına giriyorrrrr. Bu yeni yaşın sana önce sağlık getirsin. Sonra huzur getirsin. Sonra hayalini kurduğun her şeyi tek tek gerçekleştirebileceğin fırsatlar getirsin. Yaptığın işlerden keyif aldığın, kendini geliştirdiğin, mutlu olduğun ve her gün biraz daha gurur duyduğun bir yıl olsun. Ve bol para getirsin tabii çunkuu ben huzuru, mutluluğu, kaosu ve en önemlisiii benii sonsuz zorbalayabilmenii de getiriyorummm hem de hepsi ücretsiz. Böyle bir hizmeti başka yerde bulamazsınn kocammm. Seninle birlikte büyümekk hayatımınn en özell şansıı. Geleceği düşünürken yanında kendimi hayal etmek, kurduğumuz hayaller, ettiğimiz sohbetler bunların hepsi bana evim gibi hissettiriyor. Hayat bazen istediğimiz gibi gitmeyebilir. Yorulabiliriz, üzülebiliriz, hatta bazen birbirimize kızabiliriz ama ben şunu biliyorumm bütün bunların sonunda yine elini tutmak istediğimm kişi sensin çünküü benim en güvenli yerim hep sen oldun biricikk kocammm. Birlikte daha kutlayacağımız o kadar çok doğum günü var ki... İnşallah bir sonrakilerde mumlarını birlikte üfleriz, pastanı birlikte yeriz, gece sarılarak uyuruz ve artık uzakta kelimesini hiç kullanmak zorunda kalmayız. Seni tarif etmeye kelimeler yetmiyor. Ama şunu çok rahat söyleyebilirimmm bebeğimmm İyi ki doğmuşsun. İyi ki benim sevgilim olmuşsun. İyi ki benim en yakın arkadaşım olmuşsun. İyi ki hayatıma gelmişsin. Ve her şeyden önemlisi... İyi ki benim kocamsın. Seni bugün dünden daha çok seviyorum. Yarın ise bugünden daha çok seveceğim. Nice yaşlara bebeğim... İyi ki doğdun.`,
+    
     photos: [
-        { name: 'Bebeklik Fotoğrafı', caption: '🍼 Başı böyle güzel' },
-        { name: 'Üniversite Günleri', caption: '👨‍🎓 Gelecek parlak' },
-        { name: 'İlk Buluşma', caption: '💑 İyi ki konuştuk' },
-        { name: 'Tatil Anısı', caption: '🌴 Birlikte güzel' },
-        { name: 'Eğlenceli Anlar', caption: '😂 Kahkahalarımız' },
-        { name: 'Romantik Moment', caption: '💕 Seninle her an' },
-        { name: 'Bugün', caption: '🎂 23 yaşındaki kocamız' }
+        { emoji: '🍼', caption: '👶 Başı böyle güzel', color1: '#FF6B9D', color2: '#C44569' },
+        { emoji: '🎓', caption: '👨‍🎓 Gelecek parlak', color1: '#4ECDC4', color2: '#44A08D' },
+        { emoji: '💑', caption: '💑 İlk buluşma', color1: '#FF6348', color2: '#F2A359' },
+        { emoji: '🌴', caption: '🌴 Tatil anısı', color1: '#95E1D3', color2: '#38ADA9' },
+        { emoji: '😂', caption: '😂 Kahkahalar', color1: '#FFD93D', color2: '#FEC93F' },
+        { emoji: '💕', caption: '💕 Romantik an', color1: '#FF69B4', color2: '#DB0A5B' },
+        { emoji: '🎂', caption: '🎂 Bugün senin gün', color1: '#A8D8EA', color2: '#AA96DA' }
+    ],
+    
+    finalMessages: [
+        'Eğer bu satırı okuyorsan... demek ki sonuna kadar geldin.',
+        'Tıpkı benim de hayatımın sonuna kadar senin yanında olmak istediğim gibi...',
+        'Seni seçtim.',
+        'Bugün da...',
+        'Yarın da...',
+        'Her zaman...',
+        'Sonsuza Kadar Sen ❤️',
+        '03.04.2025 ∞'
     ]
 };
 
-let currentScreen = 0;
-const screens = ['opening', 'envelope-screen', 'letter-screen', 'counter-screen', 'gallery-screen', 'memories-screen', 'forever-screen', 'final-screen'];
+let currentScreenIndex = 0;
+let isScrolling = false;
 
 // ============================================
-// Initialize Page
+// Initialize
 // ============================================
 function init() {
     createStars();
@@ -30,11 +41,9 @@ function init() {
     setupNavigation();
     setupMiniPlayer();
     startCountdown();
-    
-    // Auto-play: Show opening for 10 seconds then go to envelope
-    setTimeout(() => {
-        goToScreen(1);
-    }, 10000);
+    createGallery();
+    displayLetter();
+    setupScrolling();
 }
 
 // ============================================
@@ -42,7 +51,7 @@ function init() {
 // ============================================
 function createStars() {
     document.querySelectorAll('.stars-container').forEach(container => {
-        for (let i = 0; i < 100; i++) {
+        for (let i = 0; i < 80; i++) {
             const star = document.createElement('div');
             star.classList.add('star');
             star.style.left = Math.random() * 100 + '%';
@@ -58,29 +67,23 @@ function createStars() {
 // Floating Hearts
 // ============================================
 function createFloatingHearts() {
-    document.querySelectorAll('.hearts-container').forEach(container => {
-        // Create initial hearts
-        for (let i = 0; i < 5; i++) {
-            createHeart(container, i * 1000);
-        }
-        
-        // Continuously create hearts
-        setInterval(() => {
-            createHeart(container);
-        }, 2000);
-    });
-}
-
-function createHeart(container, delay = 0) {
-    const heart = document.createElement('div');
-    heart.classList.add('floating-heart');
-    heart.textContent = '❤️';
-    heart.style.left = Math.random() * 100 + '%';
-    heart.style.animationDelay = (delay / 1000) + 's';
-    heart.style.setProperty('--rotate', Math.random() * 360 + 'deg');
-    container.appendChild(heart);
+    function addHeart() {
+        const containers = document.querySelectorAll('.hearts-container');
+        containers.forEach(container => {
+            const heart = document.createElement('div');
+            heart.classList.add('floating-heart');
+            heart.textContent = '❤️';
+            heart.style.left = Math.random() * 100 + '%';
+            heart.style.animationDelay = '0s';
+            heart.style.setProperty('--rotate', Math.random() * 360 + 'deg');
+            container.appendChild(heart);
+            
+            setTimeout(() => heart.remove(), 8000);
+        });
+    }
     
-    setTimeout(() => heart.remove(), 6000 + delay);
+    addHeart();
+    setInterval(addHeart, 3000);
 }
 
 // ============================================
@@ -92,76 +95,107 @@ function setupEnvelopeInteraction() {
     envelope.addEventListener('click', () => {
         envelope.classList.add('opened');
         playMusic();
-        
-        // Confetti effect
         createConfetti();
         
-        // Go to letter after 2 seconds
         setTimeout(() => {
-            goToScreen(2);
-        }, 2000);
+            scrollToScreen(2);
+        }, 1500);
     });
 }
 
 // ============================================
-// Create Confetti
+// Confetti Effect
 // ============================================
 function createConfetti() {
-    const envelopeContainer = document.querySelector('.envelope-container');
+    const container = document.querySelector('.envelope-container');
     
     for (let i = 0; i < 50; i++) {
         const confetti = document.createElement('div');
-        confetti.style.position = 'absolute';
-        confetti.style.left = '50%';
-        confetti.style.top = '50%';
+        confetti.style.position = 'fixed';
+        confetti.style.left = (container.offsetLeft + 150) + 'px';
+        confetti.style.top = (container.offsetTop + 100) + 'px';
         confetti.style.width = '10px';
         confetti.style.height = '10px';
-        confetti.style.background = ['#ff69b4', '#8b5fbf', '#ff1493'][Math.floor(Math.random() * 3)];
+        confetti.style.background = ['#ff69b4', '#8b5fbf', '#ff1493', '#a565d8'][Math.floor(Math.random() * 4)];
         confetti.style.borderRadius = '50%';
+        confetti.style.pointerEvents = 'none';
+        confetti.style.zIndex = '999';
+        
+        document.body.appendChild(confetti);
         
         const angle = (Math.PI * 2 * i) / 50;
-        const velocity = 5 + Math.random() * 5;
-        const tx = Math.cos(angle) * velocity * 100;
-        const ty = Math.sin(angle) * velocity * 100;
+        const velocity = 5 + Math.random() * 8;
+        const tx = Math.cos(angle) * velocity * 80;
+        const ty = Math.sin(angle) * velocity * 80;
         
         confetti.animate([
-            { transform: 'translate(0, 0)', opacity: 1 },
-            { transform: `translate(${tx}px, ${ty}px)`, opacity: 0 }
+            { transform: 'translate(0, 0) scale(1)', opacity: 1 },
+            { transform: `translate(${tx}px, ${ty}px) scale(0)`, opacity: 0 }
         ], {
-            duration: 1000,
-            easing: 'ease-out'
+            duration: 1200,
+            easing: 'cubic-bezier(0.25, 0.46, 0.45, 0.94)'
         });
         
-        envelopeContainer.appendChild(confetti);
-        setTimeout(() => confetti.remove(), 1000);
+        setTimeout(() => confetti.remove(), 1200);
     }
 }
 
 // ============================================
 // Music Player
 // ============================================
+function setupMiniPlayer() {
+    const playBtn = document.getElementById('playBtn');
+    const pauseBtn = document.getElementById('pauseBtn');
+    const vinyl = document.getElementById('vinyl');
+    
+    playBtn.addEventListener('click', () => {
+        playBtn.classList.add('hidden');
+        pauseBtn.classList.remove('hidden');
+        vinyl.classList.remove('paused');
+        playMusic();
+    });
+    
+    pauseBtn.addEventListener('click', () => {
+        pauseBtn.classList.add('hidden');
+        playBtn.classList.remove('hidden');
+        vinyl.classList.add('paused');
+        pauseMusic();
+    });
+}
+
+let audioElement = null;
+
 function playMusic() {
-    // Note: Replace with actual music URL when available
-    console.log('🎵 Dolu Kadehi Ters Tut - 23 started');
+    if (!audioElement) {
+        audioElement = new Audio();
+        audioElement.loop = true;
+        audioElement.volume = 0.3;
+        // Using a public MP3 URL
+        audioElement.src = 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3';
+    }
+    audioElement.play().catch(err => console.log('Audio play failed:', err));
+}
+
+function pauseMusic() {
+    if (audioElement) {
+        audioElement.pause();
+    }
 }
 
 // ============================================
-// Letter Typewriter Effect
+// Letter Typewriter
 // ============================================
 function displayLetter() {
-    const letterText = document.getElementById('letterText');
-    letterText.innerHTML = '';
+    const letterContent = document.getElementById('letterContent');
+    letterContent.innerHTML = '';
     
-    let index = 0;
-    function type() {
-        if (index < CONFIG.letter.length) {
-            letterText.textContent += CONFIG.letter[index];
-            index++;
-            setTimeout(type, 10);
-        }
-    }
+    const paragraphs = CONFIG.letter.split('\n\n');
     
-    type();
+    paragraphs.forEach((para, index) => {
+        const p = document.createElement('p');
+        p.textContent = para.trim();
+        letterContent.appendChild(p);
+    });
 }
 
 // ============================================
@@ -177,10 +211,15 @@ function startCountdown() {
         const minutes = Math.floor((diff / (1000 * 60)) % 60);
         const seconds = Math.floor((diff / 1000) % 60);
         
-        document.getElementById('days').textContent = days;
-        document.getElementById('hours').textContent = hours;
-        document.getElementById('minutes').textContent = minutes;
-        document.getElementById('seconds').textContent = seconds;
+        const daysEl = document.getElementById('days');
+        const hoursEl = document.getElementById('hours');
+        const minutesEl = document.getElementById('minutes');
+        const secondsEl = document.getElementById('seconds');
+        
+        if (daysEl) daysEl.textContent = String(days).padStart(2, '0');
+        if (hoursEl) hoursEl.textContent = String(hours).padStart(2, '0');
+        if (minutesEl) minutesEl.textContent = String(minutes).padStart(2, '0');
+        if (secondsEl) secondsEl.textContent = String(seconds).padStart(2, '0');
     }
     
     updateCounter();
@@ -188,41 +227,31 @@ function startCountdown() {
 }
 
 // ============================================
-// Gallery Creation with 7 Photos
+// Gallery
 // ============================================
 function createGallery() {
     const gallery = document.getElementById('galleryContainer');
     gallery.innerHTML = '';
     
-    // Create placeholder for all 7 photos
     CONFIG.photos.forEach((photo, index) => {
         const polaroid = document.createElement('div');
         polaroid.classList.add('polaroid');
         
-        // Random rotation for polaroid effect
-        const rotation = (Math.random() - 0.5) * 15;
-        polaroid.style.setProperty('--rotate', rotation + 'deg');
-        polaroid.style.transform = `rotate(${rotation}deg)`;
-        
-        // Random position
+        const rotation = (Math.random() - 0.5) * 25;
         const randomX = Math.random() * (window.innerWidth - 250);
-        const randomY = Math.random() * (window.innerHeight - 350);
+        const randomY = Math.random() * (window.innerHeight - 400) + 100;
+        
+        polaroid.style.setProperty('--rotate', rotation + 'deg');
         polaroid.style.left = randomX + 'px';
         polaroid.style.top = randomY + 'px';
-        
-        // Animation delay
         polaroid.style.animationDelay = (index * 0.3) + 's';
         
-        // Create placeholder image
-        const img = document.createElement('div');
-        img.style.width = '100%';
-        img.style.height = '100%';
-        img.style.background = `linear-gradient(135deg, hsl(${Math.random()*360}, 70%, 60%), hsl(${Math.random()*360}, 70%, 60%))`;
+        const img = document.createElement('img');
+        img.style.background = `linear-gradient(135deg, ${photo.color1} 0%, ${photo.color2} 100%)`;
         img.style.display = 'flex';
         img.style.alignItems = 'center';
         img.style.justifyContent = 'center';
-        img.style.fontSize = '2rem';
-        img.textContent = ['🍼', '👨‍🎓', '💑', '🌴', '😂', '💕', '🎂'][index];
+        img.innerHTML = photo.emoji;
         
         const caption = document.createElement('div');
         caption.classList.add('polaroid-caption');
@@ -230,174 +259,214 @@ function createGallery() {
         
         polaroid.appendChild(img);
         polaroid.appendChild(caption);
-        gallery.appendChild(polaroid);
         
-        // Click to expand (optional)
         polaroid.addEventListener('click', (e) => {
             e.stopPropagation();
-            polaroid.style.zIndex = 1000;
+            showLightbox(photo.emoji, photo.caption);
         });
+        
+        gallery.appendChild(polaroid);
     });
+}
+
+// ============================================
+// Lightbox
+// ============================================
+function showLightbox(emoji, caption) {
+    const lightbox = document.getElementById('lightbox');
+    const img = document.getElementById('lightboxImg');
+    const captionEl = document.getElementById('lightboxCaption');
+    
+    img.innerHTML = emoji;
+    img.style.fontSize = '10rem';
+    captionEl.textContent = caption;
+    
+    lightbox.classList.remove('hidden');
+}
+
+document.addEventListener('click', (e) => {
+    const lightbox = document.getElementById('lightbox');
+    if (e.target === lightbox) {
+        lightbox.classList.add('hidden');
+    }
+});
+
+document.querySelector('.close')?.addEventListener('click', () => {
+    document.getElementById('lightbox').classList.add('hidden');
+});
+
+// ============================================
+// Fireworks
+// ============================================
+function createFireworks() {
+    const canvas = document.getElementById('fireworksCanvas');
+    if (!canvas) return;
+    
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    
+    const particles = [];
+    
+    for (let i = 0; i < 50; i++) {
+        const angle = (Math.PI * 2 * i) / 50;
+        const speed = 3 + Math.random() * 5;
+        
+        particles.push({
+            x: canvas.width / 2,
+            y: canvas.height / 2,
+            vx: Math.cos(angle) * speed,
+            vy: Math.sin(angle) * speed,
+            life: 1,
+            emoji: ['✨', '💫', '⭐', '💝', '❤️'][Math.floor(Math.random() * 5)]
+        });
+    }
+    
+    function animate() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        let activeParticles = 0;
+        particles.forEach(p => {
+            if (p.life > 0) {
+                activeParticles++;
+                p.x += p.vx;
+                p.y += p.vy;
+                p.vy += 0.1; // gravity
+                p.life -= 0.02;
+                
+                ctx.globalAlpha = p.life;
+                ctx.font = '2rem Arial';
+                ctx.fillText(p.emoji, p.x, p.y);
+            }
+        });
+        
+        ctx.globalAlpha = 1;
+        
+        if (activeParticles > 0) {
+            requestAnimationFrame(animate);
+        }
+    }
+    
+    animate();
 }
 
 // ============================================
 // Screen Navigation
 // ============================================
-function goToScreen(screenIndex) {
-    // Hide all screens
-    screens.forEach(screen => {
-        document.getElementById(screen).classList.add('hidden');
-    });
-    
-    // Show target screen
-    currentScreen = screenIndex;
-    document.getElementById(screens[screenIndex]).classList.remove('hidden');
-    
-    // Execute screen-specific actions
-    switch(screenIndex) {
-        case 2: // Letter screen
-            displayLetter();
-            setTimeout(() => goToScreen(3), 30000); // Auto advance after 30 seconds
-            break;
-        case 3: // Counter screen
-            setTimeout(() => goToScreen(4), 10000); // Auto advance after 10 seconds
-            break;
-        case 4: // Gallery screen
-            createGallery();
-            setTimeout(() => goToScreen(5), 12000); // Auto advance after 12 seconds
-            break;
-        case 5: // Memories screen
-            displayMemory();
-            setTimeout(() => goToScreen(6), 10000); // Auto advance after 10 seconds
-            break;
-        case 6: // Forever screen
-            createForeverEffect();
-            setTimeout(() => goToScreen(7), 12000); // Auto advance after 12 seconds
-            break;
-        case 7: // Final screen
-            displayFinal();
-            break;
-    }
-}
+const screens = [
+    'opening',
+    'envelope-screen',
+    'letter-screen',
+    'counter-screen',
+    'gallery-screen',
+    'memories-screen',
+    'forever-screen',
+    'final-screen'
+];
 
-// ============================================
-// Memory Display
-// ============================================
-function displayMemory() {
-    document.getElementById('memoryImage').innerHTML = `
-        <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #8b5fbf 0%, #a565d8 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem;">
-            👶
-        </div>
-    `;
-}
-
-// ============================================
-// Forever Screen Effects
-// ============================================
-function createForeverEffect() {
-    const forever = document.getElementById('foreverHeart');
-    forever.classList.add('active');
+function scrollToScreen(index) {
+    if (isScrolling || index < 0 || index >= screens.length) return;
     
-    // Create fireworks
-    createFireworks();
-}
-
-function createFireworks() {
-    const container = document.getElementById('fireworks');
+    isScrolling = true;
+    currentScreenIndex = index;
     
-    for (let i = 0; i < 20; i++) {
-        setTimeout(() => {
-            const firework = document.createElement('div');
-            firework.classList.add('firework');
-            
-            const angle = (Math.PI * 2 * i) / 20;
-            const distance = 150 + Math.random() * 100;
-            const tx = Math.cos(angle) * distance;
-            const ty = Math.sin(angle) * distance;
-            
-            firework.style.setProperty('--tx', tx + 'px');
-            firework.style.setProperty('--ty', ty + 'px');
-            firework.style.left = '200px';
-            firework.style.top = '200px';
-            firework.textContent = ['✨', '💫', '⭐', '💝'][Math.floor(Math.random() * 4)];
-            firework.style.fontSize = '1.5rem';
-            
-            container.appendChild(firework);
-            setTimeout(() => firework.remove(), 1500);
-        }, i * 100);
-    }
-}
-
-// ============================================
-// Final Screen Display
-// ============================================
-function displayFinal() {
-    const finalText = document.getElementById('finalText');
-    const messages = [
-        'Eğer bu satırı okuyorsan... demek ki sonuna kadar geldin.',
-        'Tıpkı benim de hayatımın sonuna kadar senin yanında olmak istediğim gibi...',
-        'Seni seçtim.',
-        'Bugün da...',
-        'Yarın da...',
-        'Her zaman...',
-        'Sonsuza Kadar Sen ❤️',
-        '03.04.2025 ∞'
-    ];
-    
-    let messageIndex = 0;
-    finalText.innerHTML = '';
-    
-    function showMessage() {
-        if (messageIndex < messages.length) {
-            const p = document.createElement('p');
-            p.textContent = messages[messageIndex];
-            p.style.opacity = '0';
-            p.style.animation = 'fadeInUp 0.8s ease forwards';
-            finalText.appendChild(p);
-            
-            messageIndex++;
-            setTimeout(showMessage, 3000);
-        }
-    }
-    
-    showMessage();
-}
-
-// ============================================
-// Mini Player Setup
-// ============================================
-function setupMiniPlayer() {
-    const player = document.querySelector('.mini-player');
-    
-    player.addEventListener('click', () => {
-        console.log('🎵 Playing: Dolu Kadehi Ters Tut - 23');
-        // Add music toggle logic here
-    });
-}
-
-// ============================================
-// Navigation Setup
-// ============================================
-function setupNavigation() {
-    document.getElementById('nextBtn').addEventListener('click', () => {
-        if (currentScreen < screens.length - 1) {
-            goToScreen(currentScreen + 1);
+    // Update active screen
+    screens.forEach((screenId, i) => {
+        const screen = document.getElementById(screenId);
+        if (i === index) {
+            screen.classList.add('active');
+        } else {
+            screen.classList.remove('active');
         }
     });
     
-    document.getElementById('prevBtn').addEventListener('click', () => {
-        if (currentScreen > 0) {
-            goToScreen(currentScreen - 1);
-        }
-    });
+    // Update page counter
+    document.getElementById('currentPage').textContent = index + 1;
+    document.getElementById('totalPages').textContent = screens.length;
     
-    // Show navigation from letter screen onwards
+    // Execute screen-specific logic
+    if (index === 5) { // Memories screen
+        displayMemory();
+    } else if (index === 6) { // Forever screen
+        createFireworks();
+    } else if (index === 7) { // Final screen
+        displayFinal();
+    }
+    
     setTimeout(() => {
-        document.getElementById('navigation').classList.remove('hidden');
-    }, 10000);
+        isScrolling = false;
+    }, 1000);
+}
+
+function displayMemory() {
+    const memoryImage = document.getElementById('memoryImage');
+    memoryImage.style.background = 'linear-gradient(135deg, #FF6B9D 0%, #C44569 100%)';
+    memoryImage.innerHTML = '👶';
+    memoryImage.style.fontSize = '4rem';
+    memoryImage.style.display = 'flex';
+    memoryImage.style.alignItems = 'center';
+    memoryImage.style.justifyContent = 'center';
+}
+
+function displayFinal() {
+    const finalMessages = document.getElementById('finalMessages');
+    finalMessages.innerHTML = '';
+    
+    CONFIG.finalMessages.forEach((msg, index) => {
+        const line = document.createElement('div');
+        line.classList.add('final-line');
+        line.textContent = msg;
+        line.style.animationDelay = (index * 2.5) + 's';
+        finalMessages.appendChild(line);
+    });
+}
+
+// ============================================
+// Scrolling
+// ============================================
+function setupScrolling() {
+    document.getElementById('scrollDown').addEventListener('click', () => {
+        scrollToScreen(currentScreenIndex + 1);
+    });
+    
+    document.getElementById('scrollUp').addEventListener('click', () => {
+        scrollToScreen(currentScreenIndex - 1);
+    });
+    
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowDown') {
+            scrollToScreen(currentScreenIndex + 1);
+        } else if (e.key === 'ArrowUp') {
+            scrollToScreen(currentScreenIndex - 1);
+        }
+    });
+    
+    // Wheel scrolling
+    let wheelTimeout;
+    document.addEventListener('wheel', (e) => {
+        if (wheelTimeout) return;
+        
+        if (e.deltaY > 0) {
+            scrollToScreen(currentScreenIndex + 1);
+        } else if (e.deltaY < 0) {
+            scrollToScreen(currentScreenIndex - 1);
+        }
+        
+        wheelTimeout = setTimeout(() => {
+            wheelTimeout = null;
+        }, 1000);
+    }, { passive: true });
 }
 
 // ============================================
 // Start
 // ============================================
 window.addEventListener('DOMContentLoaded', init);
+window.addEventListener('resize', () => {
+    const canvas = document.getElementById('fireworksCanvas');
+    if (canvas && currentScreenIndex === 6) {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+    }
+});
