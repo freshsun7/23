@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>23 💌 | İyi ki Doğdun Kocam</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 🌌 Açılış Ekranı -->
+    <div id="opening" class="screen active">
+        <div class="stars-container"></div>
+        <div class="hearts-container"></div>
+        <div class="opening-text">
+            <div class="text-line">Bugün...</div>
+            <div class="text-line delay-1">Dünyanın en yakışıklı</div>
+            <div class="text-line delay-2">23 yaşındaki insanının doğum günü...</div>
+            <div class="text-line delay-3">❤️</div>
+        </div>
+        <div class="page-indicator">Sayfayı aşağı kaydır veya tıkla →</div>
+    </div>
+
+    <!-- 💌 Zarf Ekranı -->
+    <div id="envelope-screen" class="screen">
+        <div class="stars-container"></div>
+        <div class="hearts-container"></div>
+        <div class="envelope-wrapper">
+            <h1 class="screen-title">💌 Bana Bir Şey Var Söylemek İstiyorum...</h1>
+            <div class="envelope-container">
+                <div class="envelope" id="envelope">
+                    <div class="envelope-inner">
+                        <div class="envelope-front">
+                            <div class="envelope-flap"></div>
+                            <div class="envelope-body">
+                                <div class="envelope-text">
+                                    <div class="envelope-number">23</div>
+                                    <div class="envelope-heart">❤️</div>
+                                </div>
+                                <div class="envelope-hint">Tıkla...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <audio id="bgMusic" preload="auto">
+                <source src="https://p.scdn.co/mp3-preview/4a7fc6f5f67f4c8c4b7e1c3d5f9e2a4b" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+
+    <!-- 💌 Mektup Ekranı -->
+    <div id="letter-screen" class="screen">
+        <div class="stars-container"></div>
+        <div class="letter-container">
+            <div class="letter-paper">
+                <div class="letter-header">💌 Sana Yazdığım Mektup</div>
+                <div class="letter-content" id="letterContent">
+                    <p>23. yaş günün kutlu olsunnn.</p>
+                </div>
+                <div class="letter-signature">
+                    <p>Seninle hep,</p>
+                    <p>❤️ Senin Kocandım</p>
+                </div>
+            </div>
+            <audio id="letterMusic" preload="auto">
+                <source src="https://p.scdn.co/mp3-preview/4a7fc6f5f67f4c8c4b7e1c3d5f9e2a4b" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+
+    <!-- ❤️ Sayaç Ekranı -->
+    <div id="counter-screen" class="screen">
+        <div class="stars-container"></div>
+        <div class="hearts-container"></div>
+        <div class="counter-wrapper">
+            <h1 class="screen-title">❤️ Seninle Geçen Zaman</h1>
+            <div class="counter-container">
+                <div class="big-heart-pulse">❤️</div>
+                <div class="counter-text">3 Nisan 2025'ten beri...</div>
+                <div class="counter-box">
+                    <div class="counter-item">
+                        <div class="counter-value" id="days">0</div>
+                        <div class="counter-label">GÜN</div>
+                    </div>
+                    <div class="counter-item">
+                        <div class="counter-value" id="hours">0</div>
+                        <div class="counter-label">SAAT</div>
+                    </div>
+                    <div class="counter-item">
+                        <div class="counter-value" id="minutes">0</div>
+                        <div class="counter-label">DAKİKA</div>
+                    </div>
+                    <div class="counter-item">
+                        <div class="counter-value" id="seconds">0</div>
+                        <div class="counter-label">SANİYE</div>
+                    </div>
+                </div>
+                <div class="counter-message">Ve her geçen saniye seni biraz daha çok seviyorum...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 📸 Galeri Ekranı -->
+    <div id="gallery-screen" class="screen">
+        <div class="stars-container"></div>
+        <div class="gallery-wrapper">
+            <h1 class="screen-title">📸 Polaroid Anıları</h1>
+            <div class="gallery-container" id="galleryContainer"></div>
+            <div id="lightbox" class="lightbox hidden">
+                <span class="close">&times;</span>
+                <img class="lightbox-content" id="lightboxImg" src="" alt="">
+                <div class="lightbox-caption" id="lightboxCaption"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 🌹 Bebeklik Fotoğrafı Ekranı -->
+    <div id="memories-screen" class="screen">
+        <div class="stars-container"></div>
+        <div class="memories-wrapper">
+            <h1 class="screen-title">👶 Küçücük Bebeğimiz</h1>
+            <div class="memories-container">
+                <div class="memory-image-container">
+                    <img id="memoryImage" src="" alt="Childhood Memory" class="memory-image">
+                </div>
+                <div class="memory-text">
+                    <p class="memory-line">Şu küçücük çocuğun büyüyüp hayatımın en güzel parçası olacağını kim bilebilirdi...</p>
+                    <p class="memory-line">İyi ki doğdun sevgilim.</p>
+                    <p class="memory-line">Seni çok seviyorum.</p>
+                    <p class="memory-line">❤️</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ❤️ Sonsuza Kadar Sen -->
+    <div id="forever-screen" class="screen">
+        <div class="stars-container"></div>
+        <div class="hearts-container"></div>
+        <div class="forever-wrapper">
+            <div class="forever-container">
+                <div class="beating-heart" id="beatingHeart">
+                    <svg viewBox="0 0 100 100" class="heart-svg">
+                        <path d="M50,90 C25,75 5,60 5,40 C5,25 15,15 25,15 C35,15 45,25 50,35 C55,25 65,15 75,15 C85,15 95,25 95,40 C95,60 75,75 50,90 Z" fill="#ff69b4"/>
+                    </svg>
+                </div>
+                <div class="forever-text">
+                    <h1>Sonsuza Kadar Sen</h1>
+                    <p>❤️</p>
+                </div>
+                <canvas id="fireworksCanvas" class="fireworks-canvas"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- 🎆 Final Ekranı -->
+    <div id="final-screen" class="screen">
+        <div class="final-wrapper">
+            <div class="final-messages" id="finalMessages">
+                <div class="final-line">Eğer bu satırı okuyorsan...</div>
+            </div>
+            <div class="final-heart-end">❤️</div>
+            <div class="final-date">03.04.2025 ∞</div>
+        </div>
+    </div>
+
+    <!-- 💿 Mini Player -->
+    <div class="mini-player" id="miniPlayer">
+        <div class="vinyl-wrapper">
+            <div class="vinyl" id="vinyl">
+                <div class="vinyl-center"></div>
+            </div>
+        </div>
+        <div class="player-info">
+            <div class="player-title">Dolu Kadehi Ters Tut – 23</div>
+            <div class="player-controls">
+                <button id="playBtn" class="play-btn">▶</button>
+                <button id="pauseBtn" class="pause-btn hidden">⏸</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigasyon -->
+    <div class="navigation">
+        <button id="scrollDown" class="scroll-btn" title="Aşağı Kaydır">
+            <i class="fas fa-chevron-down"></i>
+        </button>
+        <button id="scrollUp" class="scroll-btn" title="Yukarı Kaydır">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    </div>
+
+    <!-- Sayfa Göstergesi -->
+    <div class="page-counter">
+        <span id="currentPage">1</span> / <span id="totalPages">8</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
